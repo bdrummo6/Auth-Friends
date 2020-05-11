@@ -1,0 +1,94 @@
+/* index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+}
+
+.header {
+    background: #191970;
+    color: silver;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 2.1rem;
+    color: #191970;
+}
+
+.poster {
+    width: 70%;
+    margin: 20px 15% 10px 15%;
+    height: 600px;
+}
+
+.form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20% 10px 20%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.buttons {
+    width: 30%;
+    margin: 15px 35% 10px 35%;
+    color: silver;
+    background: #191970;
+    font-weight: bold;
+}
+
+.login-input  {
+    width: 45%;
+    margin: 15px 27.5% 10px 27.5%;
+}
+
+.form-label {
+    width: 10%;
+    margin-right: 10px;
+}
+
+.buttons:hover {
+    background: silver;
+}
+
+.buttons:active {
+    background: silver;
+}
+
+.friend-card {
+    width: 50%;
+    margin: 15px 25% 5px 25%;
+}
+
+.value {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.links {
+    color: silver;
+}
+
+.collapsed {
+    height: 50px;
+}
+
+/* change navbar-toggler inside lines color (stroke) */
+.navbar-light span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='silver' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
